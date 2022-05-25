@@ -1,4 +1,4 @@
-use [SEDCACADEMYDM]
+use [SEDCACADEMYDB]
 
 CREATE TABLE [Students](
 	[ID][int] IDENTITY (1,1) NOT NULL,
@@ -58,3 +58,4 @@ CREATE TABLE [AchievementType](
 	[ParticipationRate][int] NULL
 	CONSTRAINT [PK_AchievementType] PRIMARY KEY CLUSTERED([Id] ASC)
 )
+
