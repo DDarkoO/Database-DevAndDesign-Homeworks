@@ -1,3 +1,5 @@
+use [SEDCACADEMYDM]
+
 CREATE TABLE [Students](
 	[ID][int] IDENTITY (1,1) NOT NULL,
 	[FirstName][nvarchar](20) NOT NULL,
